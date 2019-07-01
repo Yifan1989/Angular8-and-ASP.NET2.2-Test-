@@ -1,23 +1,15 @@
 ﻿<Properties StartupConfiguration="{5A380124-FCA8-4B99-B77D-7E459C0299D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test_Full/ClientApp/src/app/home/home.component.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_Full/Models/JoggingRecord.cs">
     <Files>
-      <File FileName="Test_Full/ClientApp/src/app/home/home.component.html" Line="1" Column="30" />
+      <File FileName="Test_Full/Models/JoggingRecord.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Test_Full" expanded="True">
             <Node name="Test_Full" expanded="True">
-              <Node name="ClientApp" expanded="True">
-                <Node name="src" expanded="True">
-                  <Node name="app" expanded="True">
-                    <Node name="fetch-data" expanded="True" />
-                    <Node name="home" expanded="True">
-                      <Node name="home.component.html" selected="True" />
-                    </Node>
-                    <Node name="nav-menu" expanded="True" />
-                  </Node>
-                </Node>
+              <Node name="Models" expanded="True">
+                <Node name="JoggingRecord.cs" selected="True" />
               </Node>
             </Node>
           </Node>
