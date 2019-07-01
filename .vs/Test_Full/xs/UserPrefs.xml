@@ -1,5 +1,8 @@
 ﻿<Properties StartupConfiguration="{5A380124-FCA8-4B99-B77D-7E459C0299D5}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_Full/ClientApp/src/app/home/home.component.html">
+    <Files>
+      <File FileName="Test_Full/ClientApp/src/app/home/home.component.html" Line="1" Column="30" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -9,8 +12,10 @@
                 <Node name="src" expanded="True">
                   <Node name="app" expanded="True">
                     <Node name="fetch-data" expanded="True" />
+                    <Node name="home" expanded="True">
+                      <Node name="home.component.html" selected="True" />
+                    </Node>
                     <Node name="nav-menu" expanded="True" />
-                    <Node name="app.component.ts" selected="True" />
                   </Node>
                 </Node>
               </Node>
