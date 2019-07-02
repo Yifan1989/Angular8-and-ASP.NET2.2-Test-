@@ -1,11 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System.IdentityModel.Tokens;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Test_Full.Models;
 
 namespace Test_Full
 {
@@ -29,7 +36,10 @@ namespace Test_Full
                 configuration.RootPath = "ClientApp/dist";
             });
 
-            services.AddDbContext<AuthenticationContext>(options => options.UseSqlServer());
+            //What I added:
+            services.AddDbContext<AuthenticationContext>(
+                options => options.UseSqlServer(Configuration.GetConnectionString("IdentityConnection"))
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
