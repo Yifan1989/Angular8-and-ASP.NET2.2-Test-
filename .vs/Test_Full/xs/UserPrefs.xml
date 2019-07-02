@@ -1,21 +1,16 @@
 ﻿<Properties StartupConfiguration="{5A380124-FCA8-4B99-B77D-7E459C0299D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test_Full/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_Full/Models/AuthenticationContext.cs">
     <Files>
-      <File FileName="Test_Full/Models/JoggingRecord.cs" Line="10" Column="6" />
-      <File FileName="Test_Full/Data/ApplicationDbContext.cs" Line="8" Column="138" />
-      <File FileName="Test_Full/Startup.cs" Line="32" Column="91" />
+      <File FileName="Test_Full/Models/AuthenticationContext.cs" Line="2" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Test_Full" expanded="True">
             <Node name="Test_Full" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="AuthenticationContext.cs" selected="True" />
               </Node>
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -26,7 +21,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/jamessong/Desktop/git/Angular8-and-ASP.NET2.2-Test-/Test_Full/Models/ApplicationDbContext.cs" relfile="Test_Full/Models/ApplicationDbContext.cs" line="7" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
