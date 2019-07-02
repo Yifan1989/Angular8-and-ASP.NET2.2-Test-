@@ -3,9 +3,9 @@ using Test_Full.Models;
 
 namespace Test_Full.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext: DbContext  //Inheritance
     {
-        public ApplicationDbContext()
+        public ApplicationDbContext(DbContextOptions options) : base(options) //passing the option to the parent class which is DbContext
         {
 
         }

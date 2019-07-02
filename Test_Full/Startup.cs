@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.IdentityModel.Tokens;
 
 namespace Test_Full
 {
@@ -27,6 +28,8 @@ namespace Test_Full
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+
+            services.AddDbContext<AuthenticationContext>(options => options.UseSqlServer());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
