@@ -13,5 +13,7 @@ namespace Test_Full.Models
         {
 
         }
+
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Identity;
 
 namespace Test_Full.Models
@@ -8,6 +9,8 @@ namespace Test_Full.Models
 
 
         // this is the column
+        // nvarchar is a string
+        [Column(TypeName = "nvarchar(150)")]
         public string FullName { get; set; }
     }
 }
