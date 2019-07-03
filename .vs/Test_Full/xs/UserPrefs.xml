@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{5A380124-FCA8-4B99-B77D-7E459C0299D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test_Full/Controllers/SampleDataController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_Full/appsettings.json">
     <Files>
       <File FileName="Test_Full/Models/AuthenticationContext.cs" Line="17" Column="69" />
-      <File FileName="Test_Full/Startup.cs" Line="62" Column="37" />
-      <File FileName="Test_Full/Controllers/SampleDataController.cs" Line="6" Column="1" />
-      <File FileName="Test_Full/Models/ApplicationUser.cs" Line="12" Column="32" />
+      <File FileName="Test_Full/Models/ApplicationUser.cs" />
+      <File FileName="Test_Full/Controllers/ApplicationUserController.cs" />
+      <File FileName="Test_Full/appsettings.json" Line="14" Column="1" />
+      <File FileName="Test_Full/appsettings.Development.json" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,11 +13,10 @@
           <Node name="Test_Full" expanded="True">
             <Node name="Test_Full" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="SampleDataController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>

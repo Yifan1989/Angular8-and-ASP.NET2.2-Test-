@@ -2,6 +2,13 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
+
+
+//dotnet ef migrations add InitialCreate
+// for sync the database
+// this is used for database
+
+
 namespace Test_Full.Migrations
 {
     public partial class InitialCreate : Migration
