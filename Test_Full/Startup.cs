@@ -41,8 +41,8 @@ namespace Test_Full
                 options => options.UseSqlServer(Configuration.GetConnectionString("IdentityConnection"))
             );
 
-            services.AddDefaultIdentity<ApplicationUser>()
-                .AddEntityFrameworkStores<AuthenticationContext>();
+            services.AddDefaultIdentity<ApplicationUser>().AddEntityFrameworkStores<AuthenticationContext>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,10 +59,12 @@ namespace Test_Full
                 app.UseHsts();
             }
 
-            app.UseAuthentication();
+            
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
+
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {
