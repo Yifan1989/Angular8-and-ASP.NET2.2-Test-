@@ -1,24 +1,18 @@
 ﻿<Properties StartupConfiguration="{5A380124-FCA8-4B99-B77D-7E459C0299D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test_Full/Controllers/ApplicationUserController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test_Full/ClientApp/package.json">
     <Files>
-      <File FileName="Test_Full/Controllers/ApplicationUserController.cs" Line="50" Column="15" />
-      <File FileName="Test_Full/Controllers/SampleDataController.cs" Line="31" Column="1" />
-      <File FileName="Test_Full/Startup.cs" Line="45" Column="1" />
-      <File FileName="Test_Full/Models/ApplicationUser.cs" Line="14" Column="45" />
-      <File FileName="Test_Full/Models/ApplicationUserModel.cs" Line="1" Column="1" />
+      <File FileName="Test_Full/Controllers/ApplicationUserController.cs" Line="8" Column="24" />
+      <File FileName="Test_Full/Controllers/SampleDataController.cs" />
+      <File FileName="Test_Full/Startup.cs" />
+      <File FileName="Test_Full/Models/ApplicationUser.cs" />
+      <File FileName="Test_Full/Models/ApplicationUserModel.cs" />
+      <File FileName="Test_Full/ClientApp/package.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Test_Full" expanded="True">
-            <Node name="Test_Full" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="ApplicationUserController.cs" selected="True" />
-              </Node>
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-            </Node>
+            <Node name="Test_Full" expanded="True" />
           </Node>
         </State>
       </Pad>
